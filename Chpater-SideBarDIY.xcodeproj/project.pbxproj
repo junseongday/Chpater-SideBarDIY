@@ -13,6 +13,15 @@
 		5BF31B5323F9536F000561D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B5123F9536F000561D9 /* Main.storyboard */; };
 		5BF31B5523F95371000561D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B5423F95371000561D9 /* Assets.xcassets */; };
 		5BF31B5823F95371000561D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B5623F95371000561D9 /* LaunchScreen.storyboard */; };
+		5BF31B6623F953EF000561D9 /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6023F953EF000561D9 /* icon01.png */; };
+		5BF31B6723F953EF000561D9 /* icon05.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6123F953EF000561D9 /* icon05.png */; };
+		5BF31B6823F953EF000561D9 /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6223F953EF000561D9 /* icon04.png */; };
+		5BF31B6923F953EF000561D9 /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6323F953EF000561D9 /* icon03.png */; };
+		5BF31B6A23F953EF000561D9 /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6423F953EF000561D9 /* icon02.png */; };
+		5BF31B6B23F953EF000561D9 /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF31B6523F953EF000561D9 /* sidemenu.png */; };
+		5BF31B6D23F95436000561D9 /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B6C23F95436000561D9 /* RevealViewController.swift */; };
+		5BF31B6F23F95478000561D9 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B6E23F95478000561D9 /* FrontViewController.swift */; };
+		5BF31B7123F954AF000561D9 /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF31B7023F954AF000561D9 /* SideBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		5BF31B5423F95371000561D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF31B5723F95371000561D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF31B5923F95371000561D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF31B6023F953EF000561D9 /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		5BF31B6123F953EF000561D9 /* icon05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon05.png; sourceTree = "<group>"; };
+		5BF31B6223F953EF000561D9 /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon04.png; sourceTree = "<group>"; };
+		5BF31B6323F953EF000561D9 /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		5BF31B6423F953EF000561D9 /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		5BF31B6523F953EF000561D9 /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		5BF31B6C23F95436000561D9 /* RevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		5BF31B6E23F95478000561D9 /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		5BF31B7023F954AF000561D9 /* SideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,32 @@
 		5BF31B4A23F9536F000561D9 /* Chpater-SideBarDIY */ = {
 			isa = PBXGroup;
 			children = (
+				5BF31B5F23F953B5000561D9 /* Resources */,
 				5BF31B4B23F9536F000561D9 /* AppDelegate.swift */,
+				5BF31B6C23F95436000561D9 /* RevealViewController.swift */,
 				5BF31B4D23F9536F000561D9 /* SceneDelegate.swift */,
 				5BF31B4F23F9536F000561D9 /* ViewController.swift */,
 				5BF31B5123F9536F000561D9 /* Main.storyboard */,
+				5BF31B6E23F95478000561D9 /* FrontViewController.swift */,
+				5BF31B7023F954AF000561D9 /* SideBarViewController.swift */,
 				5BF31B5423F95371000561D9 /* Assets.xcassets */,
 				5BF31B5623F95371000561D9 /* LaunchScreen.storyboard */,
 				5BF31B5923F95371000561D9 /* Info.plist */,
 			);
 			path = "Chpater-SideBarDIY";
+			sourceTree = "<group>";
+		};
+		5BF31B5F23F953B5000561D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BF31B6023F953EF000561D9 /* icon01.png */,
+				5BF31B6423F953EF000561D9 /* icon02.png */,
+				5BF31B6323F953EF000561D9 /* icon03.png */,
+				5BF31B6223F953EF000561D9 /* icon04.png */,
+				5BF31B6123F953EF000561D9 /* icon05.png */,
+				5BF31B6523F953EF000561D9 /* sidemenu.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +160,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF31B6A23F953EF000561D9 /* icon02.png in Resources */,
 				5BF31B5823F95371000561D9 /* LaunchScreen.storyboard in Resources */,
 				5BF31B5523F95371000561D9 /* Assets.xcassets in Resources */,
+				5BF31B6B23F953EF000561D9 /* sidemenu.png in Resources */,
+				5BF31B6923F953EF000561D9 /* icon03.png in Resources */,
+				5BF31B6823F953EF000561D9 /* icon04.png in Resources */,
 				5BF31B5323F9536F000561D9 /* Main.storyboard in Resources */,
+				5BF31B6623F953EF000561D9 /* icon01.png in Resources */,
+				5BF31B6723F953EF000561D9 /* icon05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF31B5023F9536F000561D9 /* ViewController.swift in Sources */,
+				5BF31B7123F954AF000561D9 /* SideBarViewController.swift in Sources */,
 				5BF31B4C23F9536F000561D9 /* AppDelegate.swift in Sources */,
+				5BF31B6F23F95478000561D9 /* FrontViewController.swift in Sources */,
 				5BF31B4E23F9536F000561D9 /* SceneDelegate.swift in Sources */,
+				5BF31B6D23F95436000561D9 /* RevealViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
